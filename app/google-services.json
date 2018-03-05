@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "510690668823",
+    "firebase_url": "https://timerapptest.firebaseio.com",
+    "project_id": "timerapptest",
+    "storage_bucket": "timerapptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510690668823:android:2fefaf1202db1530",
+        "android_client_info": {
+          "package_name": "com.example.stuar.timerapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510690668823-uohbbojn70r16uavnt7isqnr8aqu01c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stuar.timerapptest",
+            "certificate_hash": "8cd364b58f88e7401b846b4bb6f832960220b01b"
+          }
+        },
+        {
+          "client_id": "510690668823-b7ej9h2gnmnfbec0g8fbt39n3r7eg9vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV9az5uWdDAObosd3Yvs4-eE2A6-B8HeQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510690668823-b7ej9h2gnmnfbec0g8fbt39n3r7eg9vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

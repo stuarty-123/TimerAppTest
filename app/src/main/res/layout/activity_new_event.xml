@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stuar.timerapptest.NewEvent">
+
+    <EditText
+        android:id="@+id/editTextEventName"
+        android:layout_width="111dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Ballybogey 10 Mile TT"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textSize="12sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textViewEventName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEnterEventDetails" />
+
+    <TextView
+        android:id="@+id/textViewEventName"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
+        android:text="Event Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEnterEventDetails" />
+
+    <TextView
+        android:id="@+id/textViewEventDistance"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Distance:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEventName" />
+
+    <EditText
+        android:id="@+id/editTextEventDistance"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="e.g. 10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text=""
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewEventDistance"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEventName" />
+
+    <TextView
+        android:id="@+id/textViewEnterEventDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Enter event details"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerEventType"
+        android:layout_width="160dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEventDistance" />
+
+    <TextView
+        android:id="@+id/textViewEventType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textViewEventLocation"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="Location:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEventType" />
+
+    <EditText
+        android:id="@+id/editTextEventLocation"
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewEventLocation"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerEventType" />
+
+    <Button
+        android:id="@+id/btnNewEventOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="Ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnNewEventCancel" />
+
+    <Button
+        android:id="@+id/btnNewEventCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
